@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@swup/progress-plugin": "^1.2.1",
+    "jquery": "^3.6.3",
+    "slick-carousel": "^1.8.1",
+    "swup": "^2.0.19"
+  }
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swup.css">
+
+</head>
+<body>
+    <!-- navigation section  -->
+    <nav class="navigation">
+        <div class="legend">
+            <div class="menuToggle"></div>
+            <div class="bright-dark-toggle">
+                <ion-icon name="sunny" id="icon" class="sunny"></ion-icon>
+            </div>
+        </div>
+        
+        <div class="img-container">
+            <img src="img/logo.png" alt="logo">
+            <span id="username"> shola </span>
+        </div>
+        <ul id="nav">
+            <li class="list">
+                <a href="/index.html" style="--clr: #f44336;">
+                    <span class="icon"><ion-icon name="home"></ion-icon></span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="/book.html" style="--clr: #ffa117;">
+                    <span class="icon"><ion-icon name="book"></ion-icon></span>
+                    <span class="text">Books</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="/category.html" style="--clr: #0fc70f;">
+                    <span class="icon"><ion-icon name="switch"></ion-icon></span>
+                    <span class="text">Category</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="/logout.html" style="--clr: #2196f3;">
+                    <span class="icon"><ion-icon name="log-out"></ion-icon></span>
+                    <span class="text">Logout</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- header section here  -->
+    <main id="swup" class="transition-fade">
+        <!-- <div class="progress-bar">vufufuf</div> -->
+        <div class="searchbar">
+            <input type="search" name="search" id="search" placeholder="search for any book on computer">
+        </div>
+        <section class="carousel-container single-item">
+            <div class="items" style="--clr: #A41623;"  >
+                <div class="item-container">
+                    <div class="img">
+                        <img src="img/img01.png" alt="a lady sitting and reading">
+                    </div>
+                    <div class="content">
+                        <span class="large-text">
+                            this is the first item
+                        </span>  
+                        <span class="little-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Mollitia architecto, eaque impedit dicta animi aperiam blanditiis 
+                            ducimus voluptatibus quaerat laudantium! Modi fuga sunt quasi, 
+                            rerum explicabo ea id ipsa ullam.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="items" style="--clr: #FFB563;">
+                <div class="item-container">
+                    <div class="img">
+                        <img src="img/img2.png" alt="a male character sitting and wanting to read a pile of books">
+                    </div>
+                    <div class="content">
+                        <span class="large-text">
+                            this is the second item
+                        </span>  
+                        <span class="little-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Mollitia architecto, eaque impedit dicta animi aperiam blanditiis 
+                            ducimus voluptatibus quaerat laudantium! Modi fuga sunt quasi, 
+                            rerum explicabo ea id ipsa ullam.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="items" style="--clr: #918450;">
+                <div class="item-container">
+                    <div class="img">
+                        <img src="img/img3.png" alt="a male character sitting and wanting to read a pile of books">
+                    </div>
+                    <div class="content">
+                        <span class="large-text">
+                            this is the third item
+                        </span>  
+                        <span class="little-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Mollitia architecto, eaque impedit dicta animi aperiam blanditiis 
+                            ducimus voluptatibus quaerat laudantium! Modi fuga sunt quasi, 
+                            rerum explicabo ea id ipsa ullam.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="items" style="--clr: #F85E00;">
+                <div class="item-container">
+                    <div class="img">
+                        <img src="img/img4.gif" alt="a girl reading and drinking tea">
+                    </div>
+                    <div class="content">
+                        <span class="large-text">
+                            this is the fourth item
+                        </span>  
+                        <span class="little-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Mollitia architecto, eaque impedit dicta animi aperiam blanditiis 
+                            ducimus voluptatibus quaerat laudantium! Modi fuga sunt quasi, 
+                            rerum explicabo ea id ipsa ullam. <a href="/book.html">read</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- features section  -->
+        <section class="latest-books">
+            <div class="section-title">
+                Latest Books
+            </div>
+            <div class="books-slide multiple-items">
+                <div class="item">
+
+                    <div class="item-content">
+                        <a href="/category/coffee-guide.html" class="flex item-link">
+                           <div class="book-cover">
+                                <img src="img/library-covers/coffee guide.jpg" alt="coffee guide">
+                            </div>
+                            <div class="about-book">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            </div> 
+                        </a>
+                        <div class="extras">
+                            <ion-icon name="heart-empty" class="heart"></ion-icon>
+                            <a href="cart.html"><ion-icon name="cart" class="icon-btn"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <div class="book-cover">
+                            <img src="img/library-covers/pexels-ivan-samkov-4238507.jpg" alt="coffee guide">
+                        </div>
+                        <div class="about-book">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </div>
+                        <div class="extras">
+                            <ion-icon name="heart-empty" class="heart"></ion-icon>
+                            <ion-icon name="cart" class="icon-btn"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <div class="book-cover">
+                            <img src="img/library-covers/pexels-ann-h-1765033.jpg" alt="coffee guide">
+                        </div>
+                        <div class="about-book">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </div>
+                        <div class="extras">
+                            <ion-icon name="heart-empty" class="heart"></ion-icon>
+                            <ion-icon name="cart" class="icon-btn"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <div class="book-cover">
+                            <img src="img/library-covers/pexels-ena-marinkovic-3622632.jpg" alt="coffee guide">
+                        </div>
+                        <div class="about-book">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </div>
+                        <div class="extras">
+                            <ion-icon name="heart-empty" class="heart"></ion-icon>
+                            <ion-icon name="cart" class="icon-btn"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="node_modules/swup/dist/swup.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="node_modules/slick-carousel/slick/slick.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="js/swupe.js"></script>
+    <script src="js/slickjs.js"></script>
+    <script src="js/script.js">
+
+    </script>
+</body>
+</html>

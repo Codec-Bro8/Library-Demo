@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swup.css">
+
+</head>
+<body>
+    <nav class="navigation">
+        <div class="menuToggle">
+            <div class="bright-dark-toggle">
+                <ion-icon name="sunny"></ion-icon>
+            </div>
+        </div>
+        <div class="img-container">
+            <img src="img/logo.png" alt="logo">
+            <span id="username"> shola </span>
+        </div>
+        <ul id="nav">
+            <li class="list active">
+                <a href="/index.html" style="--clr: #f44336;">
+                    <span class="icon"><ion-icon name="home"></ion-icon></span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="/book.html" style="--clr: #ffa117;">
+                    <span class="icon"><ion-icon name="book"></ion-icon></span>
+                    <span class="text">Books</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="/category.html" style="--clr: #0fc70f;">
+                    <span class="icon"><ion-icon name="switch"></ion-icon></span>
+                    <span class="text">Category</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="/logout.html" style="--clr: #2196f3;">
+                    <span class="icon"><ion-icon name="log-out"></ion-icon></span>
+                    <span class="text">Logout</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main id="swup" class="transition-fade">
+        <h1>this is the book page</h1>
+    </main>
+    <script src="node_modules/swup/dist/swup.min.js"></script>
+    <script src="js/swupe.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script src="js/script.js">
+
+    </script>
+</body>
+</html>
